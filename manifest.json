@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+ 
+  "name": "Autotask Custom CSS",
+  "version": "1.0",
+  "description": "Changes widget size for autotask",
+  
+  "icons": { 
+  "16": "aticon32.png",
+  "48": "aticon64.png",
+  "128": "aticon128.png" },
+
+  "content_scripts": [{
+    "css": ["styles.css"],
+    "matches": ["https://ww19.autotask.net/*"]
+  }]
+ 
+}
