@@ -6,8 +6,11 @@
   "icons": {
     "128": "icons/aticon128.png"
   },
-  "content_scripts": {
-      "css": ["styles.css"],
-    "matches": ["https://ww19.autotask.net/*"]
-  }
+
+  "content_scripts": [
+    {
+    "matches": ["https://ww19.autotask.net/*"],
+    "css": ["styles.css"]
+    }
+  ]
 }
