@@ -3,14 +3,11 @@
   "version": "0.0.0.2",
   "manifest_version": 3,
   "description": "Changes widget size for autotask",
-  
   "icons": {
-      "128": "icons/aticon128.png"
-  }
-
-  "content_scripts": [{
-    "css": ["styles.css"],
+    "128": "icons/aticon128.png"
+  },
+  "content_scripts": {
+      "css": ["styles.css"],
     "matches": ["https://ww19.autotask.net/*"]
-  }]
-
+  }
 }
