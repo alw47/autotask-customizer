@@ -1,6 +1,6 @@
 {
   "name": "Autotask Customizer",
-  "version": "0.0.0.2",
+  "version": "0.0.0.3",
   "manifest_version": 3,
   "description": "Changes widget size for autotask",
   "icons": {
