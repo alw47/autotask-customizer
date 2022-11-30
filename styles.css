@@ -1,3 +1,15 @@
 .WidgetShell1[data-horizontal-size="4"] {
-height:	530px !important;
+    height:	530px !important;
+}
+
+.Grid>.Body>.Scrolling>table {
+    width: 100% !important;
+}
+
+.Grid>.Header {
+    background-color: #1c2932 !important;
+}
+
+.Grid>.Body>.Scrolling>table>tbody>tr:nth-child(even) {
+    background-color: #1c2932 !important;
 }
