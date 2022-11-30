@@ -8,8 +8,18 @@
 
 .Grid>.Header {
     background-color: #1c2932 !important;
+    border-top: solid 1px #465358 !important;
+    border-bottom: solid 1px #465358 !important;
+}
+
+.Grid>.Footer {
+    border-top: solid 1px #465358 !important;
 }
 
 .Grid>.Body>.Scrolling>table>tbody>tr:nth-child(even) {
     background-color: #1c2932 !important;
+}
+
+.DashboardHeading1 {
+    border-bottom: 0px !important;
 }
