@@ -6,23 +6,47 @@
     width: 100% !important;
 }
 
-.Grid>.Header {
+.Grid>.Body>.Scrolling>table>tbody>tr:nth-child(even) {
     background-color: #1c2932 !important;
-    border-top: solid 1px #465358 !important;
-    border-bottom: solid 1px #465358 !important;
+}
+
+/* Remove Annyoing borders */
+
+.Grid>.Header {
+  background-color: #1c2932 !important;
+  border-top: solid 1px #465358 !important;
+  border-bottom: solid 1px #465358 !important;
 }
 
 .Grid>.Footer {
-    border-top: solid 1px #465358 !important;
-}
-
-.Grid>.Body>.Scrolling>table>tbody>tr:nth-child(even) {
-    background-color: #1c2932 !important;
+  border-top: solid 1px #465358 !important;
 }
 
 .DashboardHeading1 {
     border-bottom: 0px !important;
 }
+
+.Button2.EditorButton2, .ButtonContainer>a.Button, .ButtonBar .Button2, .Grid tr.EditingButtonRow .Button2, .ToolBar>.ToolBarItem>div>.Button2, .ToolBar>.ToolBarItem>div>.DropDownButton2>.Button2, .ToolBar>.ToolBarItem>div>.DropDownButton2.Combined>.Button2, .CurrencyBox2>a.Button, .MinutesBox>a.Button, .FilterButtonPair>a.Button, .FilterButtonPair .Button2 {
+  border: 0px !important;
+}
+
+.SingleDataSelector2>.ContentContainer {
+  border: 0px !important;
+}
+
+.SingleItemSelector2>.ContentContainer {
+  border: 0px !important;
+}
+
+.MultipleDataSelector2>.ContentContainer {
+  border: 0px !important;
+}
+
+.ChipList.MultipleDataSelection {
+  border: 0px !important;
+}
+
+/* Scroll bar */
 
 /* width */
 ::-webkit-scrollbar {
