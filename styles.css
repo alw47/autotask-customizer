@@ -46,6 +46,14 @@
   border: 0px !important;
 }
 
+.RichTextBox2>.Content2 {
+  border: 1px solid #3e4b50 !important;
+}
+
+.LargeMultipleTagSelector>.InputContainer>.SearchBox {
+  border: 1px solid #3e4b50 !important;
+}
+
 /* Scroll bar */
 
 /* width */
@@ -66,4 +74,8 @@
   /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover {
     background: #242d35; 
+  }
+
+  input, textarea, select {
+    border: 0px !important;
   }
